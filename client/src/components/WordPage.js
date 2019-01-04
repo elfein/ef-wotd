@@ -34,6 +34,18 @@ export default class WordPage extends Component {
                     <Header as='h1'>{this.state.word.name}</Header>
                     <Divider hidden />
                     <Header as='h2'>definition: {this.state.word.definition}</Header>
+                    <Divider hidden />
+                    {this.props.match.params.dateId == 1 ? null :
+                        <Link to={`/words/${this.state.word.dateId - 1}`}>
+                            <Button content='Previous' icon='left arrow' labelPosition='left' />
+                        </Link>
+                    }
+                    <Link to='/'><Button content="Home" /></Link>
+                    {this.props.match.params.dateId == 365 ? null :
+                        <Link to={`/words/${this.state.word.dateId + 1}`}>
+                            <Button content='Next' icon='right arrow' labelPosition='right' />
+                        </Link>
+                    }
                 </Container>
             </div>
         )
