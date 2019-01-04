@@ -35,7 +35,7 @@
 
 ## 4. Resources
 
-- I used the this [Random Lists](https://www.randomlists.com/random-vocabulary-words) website to generate my list of 365 vocabulary words.
+- I used this [Random Lists](https://www.randomlists.com/random-vocabulary-words) website to generate my list of 365 vocabulary words.
 - [This dicussion](https://www.reddit.com/r/reactjs/comments/8fu5td/how_to_get_a_component_to_rerender_when_the_url/) helped me resolve an issue with rerendering my component when moving between previous and next vocabulary words.
 
 ## 5. Development Considerations
@@ -58,4 +58,4 @@
 
 - If I were to continue this project, I would like to build out the functionality, as mentioned before. This could include providing more information with each word, such as displaying the associated date. I could also see adding a user model that could store favorite words, given enough time.
 
-- I would have liked to clean up and update the database given more time; I could add part of speech information to each word, or found more complete, well-worded definitions.
+- I would like to clean up and update the database in the future; I could add part of speech information to each word, or find more complete, well-worded definitions.
